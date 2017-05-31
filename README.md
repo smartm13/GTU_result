@@ -19,3 +19,21 @@ html=1 will append the html view of result along with spi and cpi data.
 
 Sample stored result:
 http://ec2-35-166-11-103.us-west-2.compute.amazonaws.com:8082/results/140280116051.html
+
+
+
+
+
+
+Source Code available as live at:
+
+http://ec2-35-166-11-103.us-west-2.compute.amazonaws.com:8084/gtu/pasted/
+
+Main flask file: http://ec2-35-166-11-103.us-west-2.compute.amazonaws.com:8084/gtu/pasted/deploy.py
+
+
+Dependencies:
+
+PILLOW=( sudo apt-get install libjpeg-dev; pip install pillow )
+
+pytesseract=( sudo apt-get install tesseract-ocr; sudo pip install pytesseract )
